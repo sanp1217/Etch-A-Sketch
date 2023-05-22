@@ -1,0 +1,19 @@
+.gridContParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.gridContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 600px;
+}
+
+.square{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+}
