@@ -1,5 +1,6 @@
 .gridContParent{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90vh;
@@ -16,4 +17,11 @@
     width: 35px;
     height: 35px;
     border: 1px solid black;
+}
+
+.gridSizeBtn{
+    margin-bottom: 20px;
+    height: 75px;
+    width: 200px;
+    font-size: 30px;
 }
