@@ -14,3 +14,9 @@ squares.forEach((square) => {
         square.style.backgroundColor = "#" + randColor;
     })
 })
+
+let gridSizeBtn = document.querySelector(".gridSizeBtn");
+gridSizeBtn.addEventListener('click', () => {
+    let size = prompt("Enter number of squares per side: ");
+    changeGridSize(size);
+});
